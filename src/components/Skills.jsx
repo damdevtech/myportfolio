@@ -25,14 +25,14 @@ function Skills() {
                             <i className="fa-brands fa-js"></i>
                             <span className="skill-label">JavaScript</span>
                         </span>
-                        <div className="skill-bar"><div className="skill-level" style={{ width: "80%" }}></div></div>
+                        <div className="skill-bar"><div className="skill-level" style={{ width: "70%" }}></div></div>
                     </li>
                     <li>
                         <span className="skill-info">
                             <i className="fa-brands fa-react"></i>
                             <span className="skill-label">React</span>
                         </span>
-                        <div className="skill-bar"><div className="skill-level" style={{ width: "75%" }}></div></div>
+                        <div className="skill-bar"><div className="skill-level" style={{ width: "70%" }}></div></div>
                     </li>
                 </ul>
             </div>
