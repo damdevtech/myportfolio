@@ -1,19 +1,24 @@
 import React from "react";
-import laundry from "../assets/laundry.png";
+
 import ProjectCard from './ProjectCard.jsx'
-import calculator from "../assets/calculator.png";
+// import calculator from "../assets/calculator.png";
 import meal from "../assets/meal-generator.png";
+import quiz from "../assets/quiz.png";
+import cv from "../assets/cv-builder.png"; 
+import mini from "../assets/mini-project.png";
 
 
 const projects = [
-    { image: laundry, title: "Laundry Website", skills: ["HTML", "CSS", "JS"] },
-    { image: calculator, title: "Calculator App", skills: ["HTML", "CSS", "JS"] },
-    { image: meal, title: "Meal Generator", skills: ["HTML", "CSS", "JS"] },
+    { image: quiz, title: "Quiz App", demoLink: "https://damdevquizapp.netlify.app", githubLink: "https://github.com/exceldigital1/quizapp", description: "An interactive quiz application built with React and Tailwind CSS.", skills: ["React", "Tailwind CSS", "JavaScript"] },
+    {image: cv, title: "CV Builder App", demoLink: "https://damdevcvbuilder.netlify.app", githubLink: "https://github.com/exceldigital1/CV-Builder", description: "An application for creating professional CVs with a clean UI.", skills: ["React", "Tailwind CSS", "JavaScript"] },
+    { image: mini, title: "Mini Projects", demoLink: "https://15reactminiprojects.netlify.app", githubLink: "https://github.com/exceldigital1/15-react-mini-projects ", description: "A collection of small, fun projects built with React and Tailwind CSS.", skills: ["React", "Tailwind CSS", "JavaScript"] },
+    // { image: calculator, title: "Calculator App", demoLink: "", githubLink: "", description: "A fully functional calculator with a modern design.", skills: ["HTML", "CSS", "JS"] },
+    { image: meal, title: "Meal Generator", demoLink: "https://random-mealgenerator.netlify.app", githubLink: "https://github.com/exceldigital1/random-meal-generator", description: "An app that generates random meal ideas for users.", skills: ["HTML", "CSS", "JS"] },
 ];
 
 function Projects() {
     return (
-        <div id="projects">
+        <section id="projects">
             <h2>Projects</h2>
             <div className="projects-grid">
                 {projects.map((p, i) => (
@@ -21,12 +26,15 @@ function Projects() {
                         key={`${p.title}-${i}`}
                         image={p.image}
                         title={p.title}
+                        description={p.description}
+                        demoLink={p.demoLink}
+                        githubLink={p.githubLink}
                         skills={p.skills}
                         index={i}
                     />
                 ))}
             </div>
-        </div>
+        </section>
     );
 }
 

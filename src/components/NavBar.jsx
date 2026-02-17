@@ -16,10 +16,11 @@ function NavBar({ theme = "light", onToggleTheme = () => {} }) {
         <span></span>
       </button>
       <ul className={menuOpen ? 'nav-menu open' : 'nav-menu'}>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li><a href="#main">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#footer">Contact</a></li>
         <li className="theme-item">
           <button
             aria-label="Toggle theme"

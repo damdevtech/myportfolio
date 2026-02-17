@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-function ProjectCard({ image, title, skills = [], index = 0 }) {
+function ProjectCard({ image, title, description, demoLink, githubLink, index = 0 }) {
 	const ref = useRef(null);
 	const [visible, setVisible] = useState(false);
 
@@ -26,11 +26,16 @@ function ProjectCard({ image, title, skills = [], index = 0 }) {
 		>
 			<img className="project-image" src={image} alt={title} />
 			<h3>{title}</h3>
-			<div className="tech-list">
+			<p style={{height: 60}}>{description}</p>
+			<div id="project-links">
+				<a id="demo" href={demoLink} target="_blank" rel="noopener noreferrer">Live Demo</a>
+				<a id="github" href={githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
+			</div>
+			{/* <div className="tech-list">
 				{skills.map((t) => (
 					<span key={t}>{t}</span>
 				))}
-			</div>
+			</div> */}
 		</div>
 	);
 }

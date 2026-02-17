@@ -73,6 +73,7 @@ nav .search-bar {
 
 #main {
   margin-top: 5rem;
+  gap: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -128,9 +129,16 @@ nav .search-bar {
 .about-image {
   width: 240px;
   height: 300px;
+  margin-left: 100px;
   border-radius: 50%;
   display: block;
   margin: 20px auto;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text);
 }
 
 /* container for cards: responsive columns */
@@ -166,15 +174,37 @@ nav .search-bar {
   display: block;
 }
 
-.tech-list {
+#project-links {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+#project-links a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  border: 1px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+#project-links a:hover {
+  background-color: var(--primary);
+  color: var(--button-text);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* .tech-list {
   margin-top: 8px;
   display: flex;
   text-align: center;
   justify-content: center;
-  color: var(--accent);
+  color: var();
   gap: 8px;
   flex-wrap: wrap;
-}
+} */
 
 /* play animation when parent gets .is-visible */
 .project-card.is-visible {

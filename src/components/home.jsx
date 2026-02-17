@@ -4,8 +4,8 @@ function Home() {
     return (
         <section id="main">
             <div>
-                <h1>Hi, I'm Saheed, A frontend Developer</h1>
-                <p>I build accessible, inclusive products and digital experiences for the web.</p>
+                <h1>Hi, I'm Saheed, <br /> A frontend Developer</h1>
+                <p>I build accessible, inclusive digital products and web experiences, and I’m currently open to internship opportunities where I can learn, grow, and contribute.</p>
                 <div className="main-links">
                     <a id="my-work" href="">View My Work</a>
                     <a id="my-cv" href="">Download CV</a>

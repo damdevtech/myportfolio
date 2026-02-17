@@ -3,6 +3,9 @@ import Home from "./components/home";
 import About from "./components/about";
 import NavBar from "./components/NavBar";
 import Projects from "./components/projects";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
+
 
 import "./App.css";
 
@@ -29,6 +32,8 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Skills />
+      <Footer />
     </div>
   );
 }
