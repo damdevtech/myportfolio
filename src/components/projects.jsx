@@ -13,7 +13,7 @@ const projects = [
     {image: cv, title: "CV Builder App", demoLink: "https://damdevcvbuilder.netlify.app", githubLink: "https://github.com/damdevtech/CV-Builder", description: "An application for creating professional CVs with a clean UI.", skills: ["React", "Tailwind CSS", "JavaScript"] },
     { image: mini, title: "Mini Projects", demoLink: "https://15reactminiprojects.netlify.app", githubLink: "https://github.com/damdevtech/15-react-mini-projects ", description: "A collection of small, fun projects built with React and Tailwind CSS.", skills: ["React", "Tailwind CSS", "JavaScript"] },
     { image: calculator, title: "Calculator App", demoLink: "https://damdevcalculator.netlify.app/", githubLink: "https://github.com/damdevtech/calculator", description: "A fully functional calculator with a modern design.", skills: ["HTML", "CSS", "JS"] },
-    { image: meal, title: "Meal Generator", demoLink: "https://random-mealgenerator.netlify.app", githubLink: "https://github.com/damdevtech/random-meal-generator", description: "An app that generates random meal ideas for users.", skills: ["HTML", "CSS", "JS"] },
+    { image: meal, title: "Meal Generator", demoLink: "https://randommealgenerators.netlify.app/", githubLink: "https://github.com/damdevtech/random-meal-generator", description: "An app that generates random meal ideas for users.", skills: ["HTML", "CSS", "JS"] },
 ];
 
 function Projects() {
