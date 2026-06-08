@@ -6,9 +6,10 @@ import meal from "../assets/meal-generator.png";
 import quiz from "../assets/quiz.png";
 import cv from "../assets/cv-builder.png";
 import mini from "../assets/mini-project.png";
-
+import jobtrackr from "../assets/Jobtrackr.png"
 
 const projects = [
+    { image: jobtrackr, title: "JobTrackr", demoLink: "https://damdevjobtrackr-pied.vercel.app/", githubLink: "https://github.com/damdevtech/jobtrackr", description: "A job application tracker app built for job hunters to track job applications.", skills: ["React", "Tailwind CSS", "localstorage"] },
     { image: mini, title: "Mini Projects", demoLink: "https://15reactminiprojects.netlify.app", githubLink: "https://github.com/damdevtech/15-react-mini-projects ", description: "A collection of small, fun projects built with React and Tailwind CSS.", skills: ["React", "Tailwind CSS", "JavaScript"] },
     { image: quiz, title: "Quiz App", demoLink: "https://damdevquizapp.netlify.app", githubLink: "https://github.com/damdevtech/quizapp", description: "An interactive quiz application built with React and Tailwind CSS.", skills: ["React", "Tailwind CSS", "JavaScript"] },
     { image: cv, title: "CV Builder App", demoLink: "https://damdevcvbuilder.netlify.app", githubLink: "https://github.com/damdevtech/CV-Builder", description: "An application for creating professional CVs with a clean UI.", skills: ["React", "Tailwind CSS", "JavaScript"] },
