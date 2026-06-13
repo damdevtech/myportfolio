@@ -1,5 +1,5 @@
 import React from "react";
-import myCv from "../assets/Saheed_Damilare_Frontend_CV.pdf"
+import myCv from "../assets/Saheed_Damilare_Frontend.pdf"
 
 function Home() {
     return (
